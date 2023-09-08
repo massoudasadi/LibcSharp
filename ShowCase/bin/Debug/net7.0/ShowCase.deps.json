@@ -8,13 +8,13 @@
     ".NETCoreApp,Version=v7.0": {
       "ShowCase/1.0.0": {
         "dependencies": {
-          "LibcSharp": "1.0.0"
+          "LibcSharp": "0.0.1"
         },
         "runtime": {
           "ShowCase.dll": {}
         }
       },
-      "LibcSharp/1.0.0": {
+      "LibcSharp/0.0.1": {
         "runtime": {
           "LibcSharp.dll": {}
         }
@@ -27,7 +27,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "LibcSharp/1.0.0": {
+    "LibcSharp/0.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

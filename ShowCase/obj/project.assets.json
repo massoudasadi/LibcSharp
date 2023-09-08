@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net7.0": {
-      "LibcSharp/1.0.0": {
+      "LibcSharp/0.0.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "compile": {
@@ -15,7 +15,7 @@
     }
   },
   "libraries": {
-    "LibcSharp/1.0.0": {
+    "LibcSharp/0.0.1": {
       "type": "project",
       "path": "../LibcSharp/LibcSharp.csproj",
       "msbuildProject": "../LibcSharp/LibcSharp.csproj"
@@ -23,7 +23,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "LibcSharp >= 1.0.0"
+      "LibcSharp >= 0.0.1"
     ]
   },
   "packageFolders": {

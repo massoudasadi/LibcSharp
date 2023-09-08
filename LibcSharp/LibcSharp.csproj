@@ -6,4 +6,15 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <PackageId>LibcSharp</PackageId>
+    <Version>0.0.1</Version>
+    <Authors>Massoud Asadi</Authors>
+    <Company>Freelance</Company>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
 </Project>
