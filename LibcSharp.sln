@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibcSharp", "LibcSharp\LibcSharp.csproj", "{B4FCE783-F877-4301-938D-57332169489C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShowCase", "ShowCase\ShowCase.csproj", "{CE477BB0-EA02-4FBE-BFAE-25EA72D20E01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4FCE783-F877-4301-938D-57332169489C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4FCE783-F877-4301-938D-57332169489C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4FCE783-F877-4301-938D-57332169489C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4FCE783-F877-4301-938D-57332169489C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE477BB0-EA02-4FBE-BFAE-25EA72D20E01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE477BB0-EA02-4FBE-BFAE-25EA72D20E01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE477BB0-EA02-4FBE-BFAE-25EA72D20E01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE477BB0-EA02-4FBE-BFAE-25EA72D20E01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

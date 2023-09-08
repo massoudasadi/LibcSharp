@@ -1,0 +1,89 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "LibcSharp/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/LibcSharp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibcSharp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LibcSharp/1.0.0": {
+      "type": "project",
+      "path": "../LibcSharp/LibcSharp.csproj",
+      "msbuildProject": "../LibcSharp/LibcSharp.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "LibcSharp >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/massoud/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/massoud/LibcSharp/ShowCase/ShowCase.csproj",
+      "projectName": "ShowCase",
+      "projectPath": "/home/massoud/LibcSharp/ShowCase/ShowCase.csproj",
+      "packagesPath": "/home/massoud/.nuget/packages/",
+      "outputPath": "/home/massoud/LibcSharp/ShowCase/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/massoud/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "/home/massoud/LibcSharp/LibcSharp/LibcSharp.csproj": {
+              "projectPath": "/home/massoud/LibcSharp/LibcSharp/LibcSharp.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.110/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
