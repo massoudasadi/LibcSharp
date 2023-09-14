@@ -1,2 +1,2 @@
 # LibcSharp
-Libc Bindings for C#
+`libc` Bindings for C#
