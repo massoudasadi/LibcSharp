@@ -7,4 +7,7 @@ public static class Libc
 
     [DllImport(LibCPath)]
     public static extern int getpid();
+
+    [DllImport(LibCPath)]
+    public static extern int kill(int pid, int sig);
 }
